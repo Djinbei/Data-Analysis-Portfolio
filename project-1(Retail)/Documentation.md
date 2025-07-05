@@ -9,9 +9,9 @@ The aim of the project is to answer the following questions:
 * What is the percentage of males and females? How different are each gender in preference for products?
 
 ## Data Collection
-The dataset used in this project was downloaded from Kaggle
+The dataset used in this project was downloaded from Kaggle then exported to Google Sheets for data cleaning
 
-## Data Cleaning
+## Data Wrangling/Preparation
 To make sure that the data is accurate, and therefore, reliable. I cleaned the data using Google Sheets by:
 * Setting proper format for all categories (e.g. date format for "Date", currency format for "Pricer Per unit" and "Total Amount")
 * Used a formula to count for missing information (cells that have no values called null cells) Refer to this [image](references/count_of_missing.PNG)
