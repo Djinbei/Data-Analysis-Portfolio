@@ -5,4 +5,4 @@ Throughout my studies in university, I developed an interest in statistics --- s
 
 I am committed to finishing multiple data analysis or data science projects to prove that I can be a valuable asset to the company by providing data-driven insights which could be used by the company to make effective decisions or to avoid dire financial consequences. 
 
-Click this [link](assets.GALISTE_RESUME.pdf) to be redirected to my my Curriculum Vitae (PDF)
+Click this [link](assets.GALISTE_RESUME.pdf) to be redirected to my Curriculum Vitae (PDF)
