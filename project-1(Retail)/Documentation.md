@@ -1,3 +1,5 @@
+This documentation highlights the process of data analysis and how it was conducted to produce reliable data-driven insights.
+
 ## Specific Objectives
 The aim of the project is to answer the following questions:
 * What product category conjures the highest sales? -- Additional: The top three highest selling product categories
@@ -5,6 +7,9 @@ The aim of the project is to answer the following questions:
 * Are there any sales trends or patterns in terms of customer/buyer's age? If so, what does this mean for the retail company?
 * What product category has the highest quantity sold? Additional: What are the top three highest quantity sold product categories?
 * What is the percentage of males and females? How different are each gender in preference for products?
+
+## Data Collection
+The dataset used in this project was downloaded from Kaggle
 
 ## Data Cleaning
 To make sure that the data is accurate, and therefore, reliable. I cleaned the data using Google Sheets by:
