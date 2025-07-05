@@ -10,4 +10,4 @@ The aim of the project is to answer the following questions:
 To make sure that the data is accurate, and therefore, reliable. I cleaned the data using Google Sheets by:
 * Setting proper format for all categories (e.g. date format for "Date", currency format for "Pricer Per unit" and "Total Amount")
 * Used a formula to count for missing information (cells that have no values called null cells) Refer to this [image](count_of_missing.PNG)
-* Made use of the IF and RIGHT function in Google Sheets to concatenate the numbers in "CustomerID" and compare it with the Transaction ID to eliminate any typographical errors. Click [this](before) for the before data cleaning reference and [this](after_datacleaning) for the after data cleaning reference.
+* Made use of the IF and RIGHT function in Google Sheets to concatenate the numbers in "CustomerID" and compare it with the Transaction ID to eliminate any typographical errors. Click [this](before.PNG) for the before data cleaning reference and [this](after_datacleaning.PNG) for the after data cleaning reference.
