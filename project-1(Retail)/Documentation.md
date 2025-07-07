@@ -16,3 +16,15 @@ To make sure that the data is accurate, and therefore reliable, data cleaning wa
 * Setting proper format for all categories (e.g. date format for "Date", currency format for "Pricer Per unit" and "Total Amount")
 * Used a formula to count for missing information (cells that have no values called null cells) Refer to this [image](references/count_of_missing.PNG)
 * Made use of the IF and RIGHT function in Google Sheets to concatenate the numbers in "CustomerID" and compare it with the Transaction ID to eliminate any typographical errors. Click [this](references/before_data-cleaning.PNG) for the before data cleaning reference and [this](references/after_data-cleaning.PNG) for the after data cleaning reference.
+
+## Data Transfer
+The cleaned data from the Google Sheets is transferred to PostgreSQL for Exploratory Data Analysis and a deeper dive into what the data means.
+* Created a database in PostgreSQL
+* Created a table titled "retail_sales" using CREATE TABLE function of PostgreSQL, making sure that the column titles and their data types are accurate.
+* Using the COPY function of PostgreSQL, the prepared data is transferred to SQL.
+Conducting data transfer had its fair share of challenges, but the challenges were essential for a more effective learning. The challenges are as follows:
+* PostgreSQL does not accept currency signs, specially for a column that has a NUMERIC datatype
+* PostgreSQL does not accept a comma for a column title with a NUMERIC datatype
+Therefore, I had to correct the format of the data again before copying it into PostgreSQL. Use this link for reference of the reformatted data.
+
+After correcting the format of the data, it was now viable for copying into PostgreSQL database. Here's the reference image of the successful data transfer using SELECT function of PostgreSQL.
