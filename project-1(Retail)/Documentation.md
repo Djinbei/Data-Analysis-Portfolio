@@ -22,9 +22,10 @@ The cleaned data from the Google Sheets is transferred to PostgreSQL for Explora
 * Created a database in PostgreSQL
 * Created a table titled "retail_sales" using CREATE TABLE function of PostgreSQL, making sure that the column titles and their data types are accurate.
 * Using the COPY function of PostgreSQL, the prepared data is transferred to SQL.
-Conducting data transfer had its fair share of challenges, but the challenges were essential for a more effective learning. The challenges are as follows:
+
+Conducting data transfer had its fair share of challenges, but the challenges were essential for a more effective learning. The challenges encountered were as follows:
 * PostgreSQL does not accept currency signs, specially for a column that has a NUMERIC datatype
 * PostgreSQL does not accept a comma for a column title with a NUMERIC datatype
-Therefore, I had to correct the format of the data again before copying it into PostgreSQL. Use this link for reference of the reformatted data.
+Therefore, I had to correct the format of the data again before copying it into PostgreSQL. Use this [first](references/data_import-reformatted_data(removedcommas)) and [second](references/data_import-reformatted_data.PNG) link for reference of the reformatted data.
 
 After correcting the format of the data, it was now viable for copying into PostgreSQL database. Here's the reference image of the successful data transfer using SELECT function of PostgreSQL.
