@@ -56,3 +56,51 @@ SELECT gender, SUM(total_amount) AS sales_per_gender
 FROM retail_sales
 GROUP BY gender
 ORDER BY sales_per_gender DESC;
+
+--- Outputs the category with most sales to least sales considering gender segmentation
+SELECT gender, product_category, SUM(total_amount) AS total_sales
+FROM retail_sales
+GROUP BY gender, product_category
+ORDER BY gender, total_sales DESC;
+
+--- Shows the number of male and female transactions for each product category
+SELECT gender, product_category, COUNT(*) AS num_transactions
+FROM retail_sales
+GROUP BY gender, product_category
+ORDER BY gender, num_transactions DESC;
+
+--- Tells the total number of female and male customers
+SELECT gender, COUNT(gender) as gender_count
+FROM retail_sales
+GROUP by gender
+ORDER by gender_count DESC;
+
+--- Outputs the total sales per age group providing more insight on age segmentation (which age group tends to buy more of the company's products)
+SELECT 
+  CASE
+    WHEN age BETWEEN 0 AND 14 THEN 'Children (0-14)'
+    WHEN age BETWEEN 15 AND 24 THEN 'Youth (15-24)'
+    WHEN age BETWEEN 25 AND 64 THEN 'Adults (25-64)'
+    WHEN age >= 65 THEN 'Seniors (65+)'
+    ELSE 'Unknown'
+  END AS age_group,
+  SUM(total_amount) AS total_sales
+FROM retail_sales
+GROUP BY age_group
+ORDER BY total_sales DESC;
+
+--- Outputs total sales considering gender, product category, and age group providing more insight on niche segmentation for the retail company.
+SELECT 
+  gender,
+  product_category,
+  CASE
+    WHEN age BETWEEN 0 AND 14 THEN 'Children (0-14)'
+    WHEN age BETWEEN 15 AND 24 THEN 'Youth (15-24)'
+    WHEN age BETWEEN 25 AND 64 THEN 'Adults (25-64)'
+    WHEN age >= 65 THEN 'Seniors (65+)'
+    ELSE 'Unknown'
+  END AS age_group,
+  SUM(total_amount) AS total_sales
+FROM retail_sales
+GROUP BY gender, product_category, age_group
+ORDER BY age_group, total_sales DESC;
