@@ -39,21 +39,22 @@ I conducted EDA using the transferred data to get a view of the big picture, to 
 |--------------------------------------------------|-----------------|
 |The first 10 rows of the retail sales table       |[View image](
 |The total data count                              |[View image](
-|The total amount of sales                         |[View image](
-|The average amount of sales                       |[View image](
-|The lowest sale transaction                       |[View image](
-|The highest sale transaction                      |[View image](
-|Sales per product category                        |[View image](
-|Filtered highest sale transactions (Count of transactions with the highest sale) |[View image](
-|Monthly sales trend                               |[View image](
-|Daily sales trend                                 |[View image](
-|Unique customers                                  |[View image](
-|Sales per gender                                  |[View image](
-|Sales per gender per product category             |[View image](
-|Count of transactions per gender per product category  |[View image](
-|Gender count (Male and Female)                    |[View image](
-|Sales per age segment (For this and the two preceding bullet points, I used a standard reference[https://www.statcan.gc.ca/en/concepts/definitions/age2] for the age segmentation.)
-|Sales per product category for different age segments |[View image](
-|Sales per gender per product category for the differnet age groups |[View image](
+|The total amount of sales                         |[View image](references/total_sales.PNG)|
+|The average amount of sales                       |[View image](references/average_sales.PNG)|
+|The lowest sale transaction                       |[View image](references/lowest_sale.PNG)|
+|The highest sale transaction                      |[View image](references/highest_sale.PNG)|
+|Sales per product category                        |[View image](references/category_sales.PNG)|
+|Filtered highest sale transactions (Count of transactions with the highest sale) |[View image](references/filter_highestsale.PNG)|
+|Monthly sales trend                               |[View image](references/monthly_sales_trend.PNG)|
+|Daily sales trend                                 |[View image](references/daily_sales.PNG)|
+|Unique customers                                  |[View image](references/unique_customers.PNG)|
+|Sales per gender                                  |[View image](references/sales_per-gender.PNG)|
+|Sales per gender per product category             |[View image](references/gender_sales_per_category.PNG)|
+|Count of transactions per gender per product category  |[View image](references/transactions_per-gender_per-category.PNG)|
+|Gender count (Male and Female)                    |[View image](references/gender_count.PNG)|
+|Sales per age segment (For this and the two preceding bullet points, I used a standard [reference](https://www.statcan.gc.ca/en/concepts/definitions/age2) for the age segmentation.) |[View image](references/total_sales(age-group).PNG)
+|Sales per product category for customer age segments |[View image](references/
+|Sales per gender per product category for customer age segments |[View image](references/total sales(product_category, age-group).PNG)|
+
 
 I also executed data cleaning PostgreSQL queries to add into my repertoire. 
