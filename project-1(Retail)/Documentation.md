@@ -6,7 +6,7 @@ The aim of the project is to provide actionable suggestions or recommendations t
 * *Which of the product categories belong in the top three highest sales?*
 * *Is there any sales trends in terms of time? (e.g, daily, monthly, yearly sales trend or pattern)*
 * *Is there any sales trend or pattern regarding customer age?*
-* *Which product category sold the most units?
+* *Which product category sold the most units?*
 * *Which three product categories sold the most units?*
 * *What is the gender distribution? How different are their product preferences?*
 
