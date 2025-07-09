@@ -1,7 +1,7 @@
 This documentation highlights the process of data analysis and how it was conducted to produce reliable data-driven insights.
 
 ## Specific Objectives
-The aim of the project is to provide actionable suggestions or recommendations to improve the retail company's operations or financial position based on the insights from the gathered data. With this, it is important to answer the following questions:
+The aim of the project is to provide actionable suggestions or recommendations to improve the retail company's operations or financial position based on the insights from the gathered data. Therefore, it is important to answer the following questions:
 * *Which product category sold the most?*
 * *Which of the product categories belong in the top three highest sales?*
 * *Is there any sales trends in terms of time? (e.g, daily, monthly, yearly sales trend or pattern)*
