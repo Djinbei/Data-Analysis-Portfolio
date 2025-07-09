@@ -34,7 +34,13 @@ Therefore, I had to correct the format of the data again before copying it into 
 After correcting the format of the data, it was now viable for copying into PostgreSQL database. Here's the reference [image](references/data_import-technicalcode_documentation(1).PNG) of the successful data transfer using SELECT function of PostgreSQL.
 
 ## Exploratory Data Analysis (EDA)
-I conducted EDA using the transferred data to get a view of the big picture, to summarize information to simplify the process of analyzing the data, to look for trends and patterns in the data that can be used for further analysis. In summary, to be able to understand what I am working with a little better. Utilizing pgAdmin and using PostgreSQL's query tool (Refer to this [link](references/eda_queries.sql) for the actual queries along with the logic behind each query), I was able to show:
+I conducted EDA using the transferred data to get a view of the big picture, to summarize the descriptive information to serve as aid in the data analysis, to look for trends and patterns in the data that can be scrutinized further. In summary, to be able to understand what the data is trying to tell me a little better. 
+
+Utilizing pgAdmin and using PostgreSQL's query tool, I was able to show the general picture of the data.
+(Refer to this [link](references/eda_queries.sql) for the actual queries along with the logic behind each query)
+
+The table below lists all the summarized information that was acquired through the queries:
+ 
 |Output                                            | Reference Image |
 |--------------------------------------------------|-----------------|
 |The first 10 rows of the retail sales table       |[View image](
