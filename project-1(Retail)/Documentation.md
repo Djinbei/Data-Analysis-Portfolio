@@ -9,7 +9,7 @@ The aim of the project is to answer the following questions:
 * What is the percentage of males and females? How different are each gender in preference for products?
 
 ## Data Collection
-The dataset used in this project was downloaded from Kaggle then exported to Google Sheets for data cleaning
+The dataset used in this project was downloaded from Kaggle then exported to Google Sheets for data cleaning.
 
 ## Data Wrangling/Preparation
 To make sure that the data is accurate, and therefore reliable, data cleaning was conducted using Google Sheets by:
