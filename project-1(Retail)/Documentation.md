@@ -26,6 +26,7 @@ The cleaned data from the Google Sheets is transferred to PostgreSQL for Explora
 Conducting data transfer had its fair share of challenges, but the challenges were essential for a more effective learning. The challenges encountered were as follows:
 * PostgreSQL does not accept currency signs, specially for a column that has a NUMERIC datatype
 * PostgreSQL does not accept a comma for a column title with a NUMERIC datatype
+
 Therefore, I had to correct the format of the data again before copying it into PostgreSQL. Use this [link](references/data_import-reformatted_data(removedcommas)) for reference of the reformatted data.
 
 After correcting the format of the data, it was now viable for copying into PostgreSQL database. Here's the reference [image](references/data_import-technicalcode_documentation(1).PNG) of the successful data transfer using SELECT function of PostgreSQL.
