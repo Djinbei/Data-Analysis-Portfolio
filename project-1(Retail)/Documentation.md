@@ -32,3 +32,28 @@ Conducting data transfer had its fair share of challenges, but the challenges we
 Therefore, I had to correct the format of the data again before copying it into PostgreSQL. Use this [link](references/data_import-reformatted_data(removedcommas)) for reference of the reformatted data.
 
 After correcting the format of the data, it was now viable for copying into PostgreSQL database. Here's the reference [image](references/data_import-technicalcode_documentation(1).PNG) of the successful data transfer using SELECT function of PostgreSQL.
+
+## Exploratory Data Analysis (EDA)
+I conducted EDA using the transferred data to get a view of the big picture, to summarize information to simplify the process of analyzing the data, to look for trends and patterns in the data that can be used for further analysis. In summary, to be able to understand what I am working with a little better. Utilizing pgAdmin and using PostgreSQL's query tool (Refer to this [link](references/eda_queries.sql) for the actual queries along with the logic behind each query), I was able to show:
+|Output                                            | Reference Image |
+|--------------------------------------------------|-----------------|
+|The first 10 rows of the retail sales table       |[View image](
+|The total data count                              |[View image](
+|The total amount of sales                         |[View image](
+|The average amount of sales                       |[View image](
+|The lowest sale transaction                       |[View image](
+|The highest sale transaction                      |[View image](
+|Sales per product category                        |[View image](
+|Filtered highest sale transactions (Count of transactions with the highest sale) |[View image](
+|Monthly sales trend                               |[View image](
+|Daily sales trend                                 |[View image](
+|Unique customers                                  |[View image](
+|Sales per gender                                  |[View image](
+|Sales per gender per product category             |[View image](
+|Count of transactions per gender per product category  |[View image](
+|Gender count (Male and Female)                    |[View image](
+|Sales per age segment (For this and the two preceding bullet points, I used a standard reference[https://www.statcan.gc.ca/en/concepts/definitions/age2] for the age segmentation.)
+|Sales per product category for different age segments |[View image](
+|Sales per gender per product category for the differnet age groups |[View image](
+
+I also executed data cleaning PostgreSQL queries to add into my repertoire. 
