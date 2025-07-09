@@ -56,5 +56,6 @@ I conducted EDA using the transferred data to get a view of the big picture, to 
 |Sales per product category for customer age segments |[View image](references/
 |Sales per gender per product category for customer age segments |[View image](references/total sales(product_category, age-group).PNG)|
 
+I noticed a quick data visualization function of PostgreSQL and immediately tried it for the [daily sales trend](references/daily_sales_visualization.PNG) and [monthly sales trend](references/monthly_sales_visualization.PNG)
 
 I also executed data cleaning PostgreSQL queries to add into my repertoire. 
