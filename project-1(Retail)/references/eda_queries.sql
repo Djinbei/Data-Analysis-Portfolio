@@ -26,18 +26,17 @@ ORDER BY category_sales DESC;
 SELECT transaction_id, transaction_date, gender, age, product_category, price_per_unit, quantity, total_amount FROM retail_sales
 ORDER BY total_amount DESC LIMIT 10;
 
--- Filter the highest sales (found that 49 transactions had the highest amount of sales, which could mean that out of 1000 transactions, 49 transactions would be the highest)
+-- Filter the highest sales (found that 49 out of the 1,000 transactions had the highest sale amount possible)
 SELECT * FROM retail_sales
 WHERE total_amount = 2000
 	
---- Shows the monthly sales trend
+--- The monthly sales trend
 SELECT DATE_TRUNC('month', transaction_date) AS month, SUM(total_amount) AS monthly_sales
 FROM retail_sales
 GROUP BY month
 ORDER by month;
-(include here the monthly sales visual chart to let employers know that you can also visualzie data using PostgreSQL)
 	
---- Shows daily sales trend from the earliest transaction date to the latest transaction date
+--- Shows the daily sales trend from the earliest transaction date to the latest transaction date
 SELECT DATE_TRUNC('day', transaction_date) AS day, SUM(total_amount) AS daily_sales
 FROM retail_sales
 GROUP BY day
@@ -48,7 +47,7 @@ SELECT
 	SUM(CASE WHEN total_amount IS NULL THEN 1 ELSE 0 END) AS missing_sales
 FROM retail_sales;
 
---- Counts distinct customers and leaves out repeat customers (to know how many customers the company has had in a year)
+--- Counts distinct or unique customers which can also be used as information to identify any repeat customers
 SELECT COUNT(DISTINCT customer_id) AS unique_customers FROM retail_sales;
 
 --- Shows the amount of sales per gender and ordering them by highest to lowest (to see if females bought more than males or vice versa, this could mean that depending on the gap, customer segmentation should lean more towards this gender)
