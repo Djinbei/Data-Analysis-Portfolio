@@ -36,8 +36,8 @@ After correcting the format of the data, it was now viable for copying into Post
 ## Exploratory Data Analysis (EDA)
 I conducted EDA using the transferred data to get a view of the big picture, to summarize the descriptive information to serve as aid in the data analysis, to look for trends and patterns in the data that can be scrutinized further. In summary, to be able to understand what the data is trying to tell me a little better. 
 
-Utilizing pgAdmin and using PostgreSQL's query tool, I was able to show the general picture of the data.
-(Refer to this [link](references/eda_queries.sql) for the actual queries along with the logic behind each query)
+Utilizing a built-in user interface for PostgreSQL called pgAdmin integrated with a standard query tool, I am able to provide the landscape of the data.
+**Important Note**: (Refer to this [link](references/eda_queries.sql) for the actual queries along with the logic behind each query)
 
 The table below lists all the summarized information that was acquired through the queries:
  
