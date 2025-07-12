@@ -61,10 +61,10 @@ The table below lists all the summarized information that was acquired through t
 |Sales per age segment (For this and the two preceding bullet points, I used a standard [reference](https://www.statcan.gc.ca/en/concepts/definitions/age2) for the age segmentation.) |[View image](total_sales(age-group).PNG)
 |Sales per product category for customer age segments |[View image](references/totalsales(product_category,age).PNG)
 |Sales per gender per product category for customer age segments |[View image](references/sales_age_group,product_category,gender.PNG)|
-|Total quantity sold                                  |[View image](references/)|
-|Quantity sold per product category                   |[View image](references/)|
-|Average price per unit for all transactions          |[View image](references/)|
-|Average price per unit per product category          |[View image](references/)|
+|Total quantity sold                                  |[View image](references/total_quantity.PNG)|
+|Quantity sold per product category                   |[View image](references/quantity_prodcategory.PNG)|
+|Average price per unit for all transactions          |[View image](references/average_price-per-unit.PNG)|
+|Average price per unit per product category          |[View image](references/averageppu_product_category.PNG)|
 
 I noticed a quick data visualization function of PostgreSQL and immediately tried it for the [daily sales trend](references/daily_sales_visual.PNG) and [monthly sales trend](references/monthly_sales_visualization.PNG)
 
