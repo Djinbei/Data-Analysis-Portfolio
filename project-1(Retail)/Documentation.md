@@ -69,3 +69,6 @@ The table below lists all the summarized information that was acquired through t
 I noticed a quick data visualization function of PostgreSQL and immediately tried it for the [daily sales trend](references/daily_sales_visual.PNG) and [monthly sales trend](references/monthly_sales_visualization.PNG)
 
 I also executed data cleaning PostgreSQL queries to add into my repertoire. 
+
+## Data Visualization
+With a better feel for the data structure, data visualization can now be conducted with the aim to provide stakeholders accessible and digestible insights from the data that can be used to make effective decisions and create actionable plans that will improve the retail company's operations, financial position, and sustainability both short-term and long-term.
