@@ -104,3 +104,28 @@ SELECT
 FROM retail_sales
 GROUP BY gender, product_category, age_group
 ORDER BY age_group, total_sales DESC;
+
+--- Total quantity/units of inventory sold
+SELECT
+SUM(quantity) AS total_quantity
+FROM retail_sales
+ORDER BY total_quantity DESC;
+
+--- Quantity/Units of inventory sold for each product category
+SELECT product_category,
+SUM(quantity) AS total_quantity
+FROM retail_sales
+GROUP BY product_category
+ORDER BY total_quantity DESC;
+
+--- The average price per unit for all transactions
+SELECT AVG(price_per_unit) AS average_ppu
+FROM retail_sales
+ORDER BY average_ppu DESC;
+
+--- The average price per unit for the product categories
+SELECT product_category,
+AVG(price_per_unit) AS average_ppu
+FROM retail_sales
+GROUP BY product_category
+ORDER BY average_ppu DESC;
