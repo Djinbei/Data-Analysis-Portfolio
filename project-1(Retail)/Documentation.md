@@ -58,7 +58,7 @@ The table below lists all the summarized information that was acquired through t
 |Sales per gender per product category             |[View image](references/gender_sales_per_category.PNG)|
 |Count of transactions per gender per product category  |[View image](references/transactions_per-gender_per-category.PNG)|
 |Gender count (Male and Female)                    |[View image](references/gender_count.PNG)|
-|Sales per age segment (For this and the two preceding bullet points, I used a standard [reference](https://www.statcan.gc.ca/en/concepts/definitions/age2) for the age segmentation.) |[View image](references/total_sales(age-group).PNG)
+|Sales per age segment (For this and the two preceding bullet points, I used a standard [reference](https://www.statcan.gc.ca/en/concepts/definitions/age2) for the age segmentation.) |[View image](project-1(Retail)/references/total_sales_per-product,category,age).PNG)
 |Sales per product category for customer age segments |[View image](references/
 |Sales per gender per product category for customer age segments |[View image](references/total sales(product_category, age-group).PNG)|
 
