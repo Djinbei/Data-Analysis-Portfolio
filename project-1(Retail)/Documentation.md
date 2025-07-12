@@ -43,8 +43,8 @@ The table below lists all the summarized information that was acquired through t
  
 |Output                                            | Reference Image |
 |--------------------------------------------------|-----------------|
-|The first 10 rows of the retail sales table       |[View image](
-|The total data count                              |[View image](
+|The first 10 rows of the retail sales table       |[View image](references/show_table.PNG)
+|The total data count                              |[View image](references/data_count.PNG)
 |The total amount of sales                         |[View image](references/total_sales.PNG)|
 |The average amount of sales                       |[View image](references/average_sales.PNG)|
 |The lowest sale transaction                       |[View image](references/lowest_sale.PNG)|
@@ -58,9 +58,9 @@ The table below lists all the summarized information that was acquired through t
 |Sales per gender per product category             |[View image](references/gender_sales_per_category.PNG)|
 |Count of transactions per gender per product category  |[View image](references/transactions_per-gender_per-category.PNG)|
 |Gender count (Male and Female)                    |[View image](references/gender_count.PNG)|
-|Sales per age segment (For this and the two preceding bullet points, I used a standard [reference](https://www.statcan.gc.ca/en/concepts/definitions/age2) for the age segmentation.) |[View image](sales_age_group,product_category,gender.PNG)
+|Sales per age segment (For this and the two preceding bullet points, I used a standard [reference](https://www.statcan.gc.ca/en/concepts/definitions/age2) for the age segmentation.) |[View image](total_sales(age-group).PNG)
 |Sales per product category for customer age segments |[View image](references/totalsales(product_category,age).PNG)
-|Sales per gender per product category for customer age segments |[View image](references/|
+|Sales per gender per product category for customer age segments |[View image](references/sales_age_group,product_category,gender.PNG)|
 
 I noticed a quick data visualization function of PostgreSQL and immediately tried it for the [daily sales trend](references/daily_sales_visual.PNG) and [monthly sales trend](references/monthly_sales_visualization.PNG)
 
