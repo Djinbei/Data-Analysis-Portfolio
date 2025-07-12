@@ -59,7 +59,7 @@ The table below lists all the summarized information that was acquired through t
 |Count of transactions per gender per product category  |[View image](references/transactions_per-gender_per-category.PNG)|
 |Gender count (Male and Female)                    |[View image](references/gender_count.PNG)|
 |Sales per age segment (For this and the two preceding bullet points, I used a standard [reference](https://www.statcan.gc.ca/en/concepts/definitions/age2) for the age segmentation.) |[View image](project-1(Retail)/references/total_sales_per-product,category,age.PNG)
-|Sales per product category for customer age segments |[View image](references/
+|Sales per product category for customer age segments |[View image](project-1(Retail)/references/total_sales_per-product,category,age.PNG)
 |Sales per gender per product category for customer age segments |[View image](references/total sales(product_category, age-group).PNG)|
 
 I noticed a quick data visualization function of PostgreSQL and immediately tried it for the [daily sales trend](references/daily_sales_visual.PNG) and [monthly sales trend](references/monthly_sales_visualization.PNG)
