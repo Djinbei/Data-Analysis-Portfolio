@@ -72,3 +72,11 @@ I also executed data cleaning PostgreSQL queries to add into my repertoire.
 
 ## Data Visualization
 With a better feel for the data structure, data visualization can now be conducted with the aim to provide stakeholders accessible and digestible insights from the data that can be used to make effective decisions and create actionable plans that will improve the retail company's operations, financial position, and sustainability both short-term and long-term.
+
+This time, I imported the data from PostgreSQL to PowerBI to start the data visualization process.
+
+At this point in time, specifically the 14th of July 2025, I have never used PowerBI for data visualization purposes. I mostly used Google Sheets or Excel to visualize data for our research projects in university. Therefore, I thought it best to experiment and try PowerBI's functions first. The resulting first draft after one hour of experimentation can be seen here. 
+
+Also, whilst on the midst of experimentation. I thought of an idea to divide the visuals into proper segments that can be understood by non-technical stakeholders. I thought of dividing the report into segments such as "Sales", "Customer Behavior", "Inventory". Use the table below for the segment description and what it could contain.
+
+(Insert table here)
