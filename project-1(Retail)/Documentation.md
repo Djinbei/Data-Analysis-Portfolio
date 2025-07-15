@@ -14,7 +14,7 @@ With the aim etablished, I seek answers to the following questions:
 * *Are there peak sales periods?*
 **Customer Behavior**
 * *What is the gender distribution across all transactions?
-* How does product preference differ by gender?*
+* *How does product preference differ by gender?*
 * *What are the top product categories for each gender?*
 **Inventory**
 * *How many units were sold overall?*
