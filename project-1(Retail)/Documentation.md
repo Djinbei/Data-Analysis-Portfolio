@@ -12,13 +12,16 @@ With the aim etablished, I seek answers to the following questions:
 * *What is the sales distribution by age group?*
 * *What is the sales distribution by gender?*
 * *Are there peak sales periods?*
+
 **Customer Behavior**
 * *What is the gender distribution across all transactions?*
 * *How does product preference differ by gender?*
 * *What are the top product categories for each gender?*
+
 **Inventory**
 * *How many units were sold overall?*
 * Which product category sold the highest number of units?*
+
 **Additional Insights**
 * *What is the average price per unit for each product category?*
 
