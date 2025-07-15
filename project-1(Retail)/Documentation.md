@@ -1,14 +1,26 @@
 This documentation highlights the process of data analysis and how it was conducted to produce reliable data-driven insights.
 
 ## Specific Objectives
-The aim of the project is to provide actionable suggestions or recommendations to improve the retail company's operations or financial position based on the insights from the gathered data. Therefore, it is important to answer the following questions:
+
+The aim of this project is to provide actionable suggestions and recommendations that will help improve the company's product operations and financial position through better understanding of sales patterns, customer behavior, and inventory data. 
+With the aim etablished, I seek answers to the following questions:
+
+**Sales**
+* *What is the overall sales amount?*
 * *Which product category sold the most?*
-* *Which of the product categories belong in the top three highest sales?*
-* *Is there any sales trends in terms of time? (e.g, daily, monthly, yearly sales trend or pattern)*
-* *Is there any sales trend or pattern regarding customer age?*
-* *Which product category sold the most units?*
-* *Which three product categories sold the most units?*
-* *What is the gender distribution? How different are their product preferences?*
+* *Are there any noticeable trends or patterns for the monthly sales?*
+* *What is the sales distribution by age group?*
+* *What is the sales distribution by gender?*
+* *Are there peak sales periods?*
+**Customer Behavior**
+* *What is the gender distribution across all transactions?
+* How does product preference differ by gender?*
+* *What are the top product categories for each gender?*
+**Inventory**
+* *How many units were sold overall?*
+* Which product category sold the highest number of units?*
+**Additional Insights**
+* *What is the average price per unit for each product category?*
 
 ## Data Collection
 The dataset used in this project was downloaded from Kaggle then exported to Google Sheets for data cleaning.
