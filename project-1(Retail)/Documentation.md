@@ -96,7 +96,7 @@ Also, whilst on the midst of experimentation. I thought of an idea to divide the
 
 (Insert table here)
 
-**July 15, 2025**
+*July 15, 2025*
 I completed the second draft, specifically the data visualization for the "Sales" segment. After completing the draft, I observed some weaknesses and mistakes:
 * Absence of slicers, limiting interactivity.
 * Incosistent y-axis units (e.g, one chart has a definitive unit in the thousands while the other is set in millions)
