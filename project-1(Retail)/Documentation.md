@@ -17,6 +17,8 @@ With the aim etablished, I seek answers to the following questions:
 * *What is the gender distribution across all transactions?*
 * *How does product preference differ by gender?*
 * *What are the top product categories for each gender?*
+* *How does product preference differ by age group?*
+* *What are the top product categories for each age group?*
 
 **Inventory**
 * *How many units were sold overall?*
@@ -92,9 +94,14 @@ This time, I imported the data from PostgreSQL to PowerBI to start the data visu
 
 At this point in time, specifically the 14th of July 2025, I have never used PowerBI for data visualization purposes. I mostly used Google Sheets or Excel to give aid visuals for the data we gathered and analyzed for our research projects during university. Therefore, I thought it best to experiment and try PowerBI's functions first. The resulting first draft after one hour of experimentation can be seen here. 
 
-Also, whilst on the midst of experimentation. I thought of an idea to divide the visuals into proper segments that can be understood by non-technical stakeholders. I thought of dividing the report into segments such as "Sales", "Customer Behavior", "Inventory", "Additional Insights". This is also reflected on the specfic objectives section where I categorized the key questions to the aforementioned segments. Use the table below for the segment description and what it could contain.
+Also, whilst on the midst of experimentation. I thought of an idea to divide the visuals into proper segments that can be understood by non-technical stakeholders. I thought of dividing the report into segments such as "Sales", "Customer Behavior", "Inventory", "Additional Insights". This is also reflected on the specfic objectives section where I categorized the key questions to the aforementioned segments. The description for each segment and their corresponding data visuals can be seen in the table below: 
 
-(Insert table here)
+|Segment                                            | Description |
+|--------------------------------------------------|-----------------|
+|**Sales**                                         | This segment focuses on providing sales insights, uncovering sales trends and patterns, and summarizing key sales information such as overall sales, etc.) |
+|**Customer Behavior**                               | Provides insights on customer behavior, such as customer distribution by gender and age group and also preference for the different products by gender and age group. |
+|**Inventory**                                      | Provides relevant information on the distribution of inventory overall, by niche (distribution of inventory across product categories, gender, and age groups.)
+|**Additional Insights**                            | Insights that can be integrated into the other segments or can be placed on a separate page titled "Additional Insights". Can be used as additional visual reference for information not as crucial as the others present in the previous three segments.|
 
 *July 15, 2025*
 I completed the second draft, specifically the data visualization for the "Sales" segment. After completing the draft, I observed some weaknesses and mistakes:
