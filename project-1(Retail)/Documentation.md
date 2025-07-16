@@ -90,8 +90,15 @@ With a better feel for the data structure, data visualization can now be conduct
 
 This time, I imported the data from PostgreSQL to PowerBI to start the data visualization process.
 
-At this point in time, specifically the 14th of July 2025, I have never used PowerBI for data visualization purposes. I mostly used Google Sheets or Excel to visualize data for our research projects in university. Therefore, I thought it best to experiment and try PowerBI's functions first. The resulting first draft after one hour of experimentation can be seen here. 
+At this point in time, specifically the 14th of July 2025, I have never used PowerBI for data visualization purposes. I mostly used Google Sheets or Excel to give aid visuals for the data we gathered and analyzed for our research projects during university. Therefore, I thought it best to experiment and try PowerBI's functions first. The resulting first draft after one hour of experimentation can be seen here. 
 
-Also, whilst on the midst of experimentation. I thought of an idea to divide the visuals into proper segments that can be understood by non-technical stakeholders. I thought of dividing the report into segments such as "Sales", "Customer Behavior", "Inventory". Use the table below for the segment description and what it could contain.
+Also, whilst on the midst of experimentation. I thought of an idea to divide the visuals into proper segments that can be understood by non-technical stakeholders. I thought of dividing the report into segments such as "Sales", "Customer Behavior", "Inventory", "Additional Insights". This is also reflected on the specfic objectives section where I categorized the key questions to the aforementioned segments. Use the table below for the segment description and what it could contain.
 
 (Insert table here)
+
+**July 15, 2025**
+I completed the second draft, specifically the data visualization for the "Sales" segment. After completing the draft, I observed some weaknesses and mistakes:
+* Absence of slicers, limiting interactivity.
+* Incosistent y-axis units (e.g, one chart has a definitive unit in the thousands while the other is set in millions)
+* The 'monthly sales' title is incorrect. Based on the x-axis units, the title should be 'daily sales'.
+* There's no title for the consolidated visuals.
