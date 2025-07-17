@@ -23,6 +23,8 @@ With the aim etablished, I seek answers to the following questions:
 **Inventory**
 * *How many units were sold overall?*
 * Which product category sold the highest number of units?*
+* Which gender bought the most amount of units?
+* Which age group bought the most amount of units?
 
 **Additional Insights**
 * *What is the average price per unit for each product category?*
