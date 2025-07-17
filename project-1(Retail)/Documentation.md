@@ -101,7 +101,7 @@ Also, whilst on the midst of experimentation. I thought of an idea to divide the
 |**Sales**                                         | This segment focuses on providing sales insights, uncovering sales trends and patterns, and summarizing key sales information such as overall sales, etc.) |
 |**Customer Behavior**                               | Provides insights on customer behavior, such as customer distribution by gender and age group and also preference for the different products by gender and age group. |
 |**Inventory**                                      | Provides relevant information on the distribution of inventory overall, by niche (distribution of inventory across product categories, gender, and age groups.)
-|**Additional Insights**                            | Insights that can be integrated into the other segments or can be placed on a separate page titled "Additional Insights". Can be used as additional visual reference for information not as crucial as the others present in the previous three segments.|
+|**Additional Insights**                            | Insights that can be integrated into the other segments or can be placed on a separate page titled "Additional Insights". Used as additional visual reference for information that are not as relevant as the information presented on the three segments.|
 
 *July 15, 2025*
 I completed the second draft, specifically the data visualization for the "Sales" segment. After completing the draft, I observed some weaknesses and mistakes:
