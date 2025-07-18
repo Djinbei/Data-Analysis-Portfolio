@@ -1,5 +1,5 @@
 # Project 1 
-# A Beginner Project: Data Analysis of a Retail Company
+# Retail Operations Analytics: Gaining Insights on Sales, Customer Behavior, and Inventory Through Data Analysis
 
 ## About 
 This is my first data analysis project, therefore I expect it to be full of gaps and lack of direction. Nevertheless, I will try my best to apply the concepts I have learned from school such as *Exploratory Data Analysis*, *data cleaning*, and *data visualization*. This project will serve as my stepping stone towards learning more and improving my technical and practical data analysis knowledge.
