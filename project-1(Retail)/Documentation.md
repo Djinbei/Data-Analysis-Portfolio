@@ -6,27 +6,16 @@ The aim of this project is to provide actionable suggestions and recommendations
 With the aim etablished, I seek answers to the following questions:
 
 **Sales**
-* *What is the overall sales amount?*
+* *What is the overall sales revenue and total units sold?*
 * *Which product category sold the most?*
-* *Are there any noticeable trends or patterns for the monthly sales?*
-* *What is the sales distribution by age group?*
-* *What is the sales distribution by gender?*
-* *Are there peak sales periods?*
+* *Are there any noticeable monthly sales trends or patterns, and when are the peak sales periods?*
+* *How does sales distribution vary across gender and age groups?
+* *What is the average transaction sale?*
 
-**Customer Behavior**
-* *What is the gender distribution across all transactions?*
+**Customer, Product, and Inventory Insights**
 * *How does product preference differ by gender?*
-* *What are the top product categories for each gender?*
 * *How does product preference differ by age group?*
-* *What are the top product categories for each age group?*
-
-**Inventory**
-* *How many units were sold overall?*
-* Which product category sold the highest number of units?*
-* Which gender bought the most amount of units?
-* Which age group bought the most amount of units?
-
-**Additional Insights**
+* How many units were sold for each product category, and which product category had the highest amount of total units sold?
 * *What is the average price per unit for each product category?*
 
 ## Data Collection
