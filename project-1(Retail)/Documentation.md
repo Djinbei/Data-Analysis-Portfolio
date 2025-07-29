@@ -173,10 +173,10 @@ The final visuals included in the **Product & Customer** dashboard are as follow
 Made some small tweaks on the design of each segment to finalize the **Retail Company's Operations Analytics Dashboard.**
 
 Use this references for each dashboard design:
-[*Navigation Menu*](references/data_visualization/13.navigationmenu.PNG)
-[*Sales Dashboard*](references/data_visualization/salesoverview.PNG)
-[*Customer & Product Dashboard*](references/data_visualization/12.customerandproductinsight.PNG)
-[*Inventory Dashboard*](references/data_visualization/14.inventorypage.PNG)
+* [*Navigation Menu*](references/data_visualization/13.navigationmenu.PNG)
+* [*Sales Dashboard*](references/data_visualization/salesoverview.PNG)
+* [*Customer & Product Dashboard*](references/data_visualization/12.customerandproductinsight.PNG)
+* [*Inventory Dashboard*](references/data_visualization/14.inventorypage.PNG)
 
 Click [this](references/data_visualization/retail_sales.pbix) to access the dashboard file.
 
