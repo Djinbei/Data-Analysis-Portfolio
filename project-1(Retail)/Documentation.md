@@ -132,4 +132,37 @@ I also changed the overall layout of the "Sales" segment.
 
 *July 24, 2025*
 
-I finished the first iteration of the **Product & Customer** dashboard design.  
+I finished the first iteration of the **Customer & Product** dashboard design. I also changed the font style for the visuals to 'Consolas' to improve readability and worked on the aesthetic design of each dashboards by correcting axis title colors, removing axis titles for some visuals that I assumed unnecessary based on placing myself in the shoes of the stakeholders. As a beginner, I eyeballed the design which meant that if it looked understandable to me while keeping the stakeholders' perception in mind, then the design would pass.
+
+The final visuals included in the **Product & Customer** dashboard are as follows:
+* Product preference by Gender
+* Product preference by Age Group
+* Average Price Per Unit for the Product Categories
+* Gender, Age Group, and Product Category slicers
+
+Customer & Product Dashboard
+
+ *July 25, 2025*
+
+ I completed the navigation menu through iterating it over and over until I was satisifed with the design.
+ First, I prompted ChatGPT to make a logo for each of the segment included in the menu (**Sales**, **Customer & Product**, and **Inventory**) 
+ Second, I inserted the logos into the navigation menu and used the action function to integrate navigational ability onto the menu. I linked each segment to their appropriate logo through the action function. 
+
+ Navigation Menu
+
+ *July 26, 2025*
+
+ I finalized the **Inventory** dashboard using the following visuals and elements:
+ * Date and Product Category slicers
+ * Monthly Units Sold
+ * Monthly Units Sold by Product Category
+ * Total Units Sold by Product Category
+
+Inentory Dashboard
+
+*July 27, 2025*
+
+Made some small tweaks on the design of each segment to finalize the **Retail Company's Operations Analytics Dashboard.**
+
+
+ 
