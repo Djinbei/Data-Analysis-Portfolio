@@ -81,9 +81,16 @@ I also executed data cleaning PostgreSQL queries to add into my repertoire.
 ## Data Visualization
 With an improved knowledge of the data structure, the data visualization phase is commenced with the aim to provide stakeholders with clear and understandable visuals using the data to help them make more effective decisions through actionable plans that could improve the company's logistics, sustainability, and profitability immediately and in the long run. 
 
-This time, I imported the data from PostgreSQL to PowerBI to start the data visualization process.
+In this phase
+* I first [imported](references/data_visualization/1.sql-powerbi_dataimport.PNG) the data from PostgreSQL to PowerBI to jumpstart the data visualization process.
+* I then [selected](references/data_visualization/2.select_tables.PNG) which table I wanted to import. The dataset only had one table, but still, the process is what's importnat.
+Refer to this [link](references/data_visualization/3.dataimport_complete.PNG) for the successful loading of data from PostgreSQL to PowerBI
 
-It is important to note that I have never used PowerBI for data visualization purposes. I mostly used Google Sheets or Excel to give aid visuals for the data we gathered and analyzed for our research projects during university. Therefore, I thought it best to experiment and try PowerBI's functions first. The resulting first draft after one hour of experimentation can be seen here. 
+I also [created](references/data_visualization/4.conditional_column-agegroup.PNG) a conditional column to form an aggregated segment for the age colun called "Age Group". This can also be seen in the EDA phase where I also aggregated the individual ages into age groups based off of a standard reference.
+
+The dataset with the added "Age Group" column is shown [here](references/data_visualization/5.table_modified.PNG).
+
+It is important to note that I have never used PowerBI for data visualization purposes. I mostly used Google Sheets or Excel to give aid visuals for the data we gathered and analyzed for our research projects during university. Therefore, I thought it best to experiment and try PowerBI's functions first. The resulting first drafts after one hour of experimentation can be seen here. [First Draft 1](references/data_visualization/6.draft1-page1.PNG); [First Draft 2](references/data_visualization/7.firstdraft-2.PNG)
 
 Also, whilst on the midst of experimentation. I thought of an idea to divide the visuals into proper segments that can be understood by non-technical stakeholders. I thought of dividing the report into segments such as "Sales", "Customer Behavior", "Inventory", "Additional Insights". This is also reflected on the specfic objectives section where I categorized the key questions to the aforementioned segments. The description for each segment and their corresponding data visuals can be seen in the table below: 
 
@@ -96,7 +103,7 @@ Also, whilst on the midst of experimentation. I thought of an idea to divide the
 
 *July 15, 2025*
 
-I completed the second draft, specifically the data visualization for the "Sales" segment. After completing the draft, I observed some weaknesses and mistakes:
+I completed the [second draft](references/data_visualization/8.second-draft.png), specifically the data visualization for the "Sales" segment. After completing the draft, I observed some weaknesses and mistakes:
 * Absence of slicers, limiting interactivity.
 * Incosistent y-axis units (e.g, one chart has a definitive unit in the thousands while the other is set in millions)
 * The 'monthly sales' title is incorrect. Based on the x-axis units, the title should be 'daily sales'.
@@ -110,7 +117,7 @@ Eventually, I decided on using sales as the basis for preference. I based it off
 
 *July 19, 2025*
 
-I made respectable amount of progress but still struggled with what information was relevant to put in the dashboard segments. I also added a matrix table to give a detailed insight on customer distribution based off of nice information such as gendre and age group, again using the product category as the column side and total sales as value. I thought this would give be useful for giving a more in-depth view of the retail company's customer niche. However, I scrapped this on later dates since I thought it had too much information, information that the stakeholders might not even bother to check.
+I made respectable amount of progress but still struggled with what information was relevant to put in the dashboard segments. I also added a matrix table to give a detailed insight on customer distribution based off of nice information such as gender and age group, again using the product category as the column side and total sales as value. I thought this would give be useful for giving a more in-depth view of the retail company's customer niche. However, I scrapped this on later dates since I thought it had too much information, information that the stakeholders might not even bother to check.
 
  I also inserted a LinkedIn and Github logo where I marked down the links to my personal LinkedIn and Github profile. The gender and age distribution were also included in the customer & product dashboard. I also transformed some of the charts by fixing their design, craeting a more aesthetic feel to each dashboard. I also included an average transaction sales card to give information on the average inflow of revenue to the company.
 
@@ -120,7 +127,9 @@ I made respectable amount of progress but still struggled with what information 
 
  I also had the idea of creating a navigation page to integrate navigation onto the dashboard.
 
- I then added custom columns such as sales range, and sales order to create a histogram that will be used to give sales distribution information.
+ I then [added](references/data_visualization/powerqueryeditorconditional.PNG) custom columns such as [Sales Range](references/addedsales_rangecolumn.PNG), and [Sales Order](addsales_ordercolumn.PNG) to create a histogram that will be used to give sales distribution information. However, I scrapped the sales range and sales order columns because I thought using them was too complex a solution to the histogram creation problem, so I looked for a much more simpler way to create sales distribution using AI prompts. I then discovered a much more simpler way to solve the problem using the New Group function in PowerBI which lets me make bins for a specific attribute. Using this information, I right clicked on the total_amount attribute and looked for the "New Group" function to which it showed a setting interface. I tweaked the settings and set the appropriate amount for the bins to create the appropriate number of bins, hit apply and it instantly created a new group called total_amount(bins) to which I renamed as "Sales Range".
+ 
+ I then used the newly created "Sales Range" and the transaction count to create the histogram with the Sales Range in the x-axis and transaction count in the y-axis to appropriately and aesthetically convey the sales distribution. 
 
 *July 23, 2025*
 
@@ -129,6 +138,7 @@ I added slicers to make the dashboard more interactive. I added gender, product 
 I finalized the histogram which gives sales distribution insight. A first glance of the visual could immmediately convey to stakeholders their most frequent sales value. 
 
 I also changed the overall layout of the "Sales" segment.
+
 
 *July 24, 2025*
 
@@ -140,7 +150,6 @@ The final visuals included in the **Product & Customer** dashboard are as follow
 * Average Price Per Unit for the Product Categories
 * Gender, Age Group, and Product Category slicers
 
-Customer & Product Dashboard
 
  *July 25, 2025*
 
@@ -148,7 +157,6 @@ Customer & Product Dashboard
  First, I prompted ChatGPT to make a logo for each of the segment included in the menu (**Sales**, **Customer & Product**, and **Inventory**) 
  Second, I inserted the logos into the navigation menu and used the action function to integrate navigational ability onto the menu. I linked each segment to their appropriate logo through the action function. 
 
- Navigation Menu
 
  *July 26, 2025*
 
@@ -158,11 +166,20 @@ Customer & Product Dashboard
  * Monthly Units Sold by Product Category
  * Total Units Sold by Product Category
 
-Inentory Dashboard
+
 
 *July 27, 2025*
 
 Made some small tweaks on the design of each segment to finalize the **Retail Company's Operations Analytics Dashboard.**
+
+Use this references for each dashboard design:
+[*Navigation Menu*](references/data_visualization/13.navigationmenu.PNG)
+[*Sales Dashboard*](references/data_visualization/salesoverview.PNG)
+[*Customer & Product Dashboard*](references/data_visualization/12.customerandproductinsight.PNG)
+[*Inventory Dashboard*](references/data_visualization/14.inventorypage.PNG)
+
+Click [this](references/data_visualization/retail_sales.pbix) to access the dashboard file.
+
 
 
  
