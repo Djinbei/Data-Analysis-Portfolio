@@ -79,20 +79,20 @@ I noticed a quick data visualization function of PostgreSQL and immediately trie
 I also executed data cleaning PostgreSQL queries to add into my repertoire. 
 
 ## Data Visualization
-With a better feel for the data structure, data visualization can now be conducted with the aim to provide stakeholders accessible and digestible insights from the data that can be used to make effective decisions and create actionable plans that will improve the retail company's operations, financial position, and sustainability both short-term and long-term.
+With an improved knowledge of the data structure, the data visualization phase is commenced with the aim to provide stakeholders with clear and understandable visuals using the data to help them make more effective decisions through actionable plans that could improve the company's logistics, sustainability, and profitability immediately and in the long run. 
 
 This time, I imported the data from PostgreSQL to PowerBI to start the data visualization process.
 
-At this point in time, specifically the 14th of July 2025, I have never used PowerBI for data visualization purposes. I mostly used Google Sheets or Excel to give aid visuals for the data we gathered and analyzed for our research projects during university. Therefore, I thought it best to experiment and try PowerBI's functions first. The resulting first draft after one hour of experimentation can be seen here. 
+It is important to note that I have never used PowerBI for data visualization purposes. I mostly used Google Sheets or Excel to give aid visuals for the data we gathered and analyzed for our research projects during university. Therefore, I thought it best to experiment and try PowerBI's functions first. The resulting first draft after one hour of experimentation can be seen here. 
 
 Also, whilst on the midst of experimentation. I thought of an idea to divide the visuals into proper segments that can be understood by non-technical stakeholders. I thought of dividing the report into segments such as "Sales", "Customer Behavior", "Inventory", "Additional Insights". This is also reflected on the specfic objectives section where I categorized the key questions to the aforementioned segments. The description for each segment and their corresponding data visuals can be seen in the table below: 
 
 |Segment                                            | Description |
 |--------------------------------------------------|-----------------|
-|**Sales**                                         | This segment focuses on providing sales insights, uncovering sales trends and patterns, and summarizing key sales information such as overall sales, etc.) |
-|**Customer Behavior**                               | Provides insights on customer behavior, such as customer distribution by gender and age group and also preference for the different products by gender and age group. |
+|**Sales**                                         | This segment focuses on providing sales insights by uncovering sales trends and patterns and summarizing key sales information such as overall sales, etc. |
+|**Customer & Product**                               | Provides insights on customer behavior, such as customer distribution by gender and age group and also preference for the different products by gender and age group. |
 |**Inventory**                                      | Provides relevant information on the distribution of inventory overall, by niche (distribution of inventory across product categories, gender, and age groups.)
-|**Additional Insights**                            | Insights that can be integrated into the other segments or can be placed on a separate page titled "Additional Insights". Used as additional visual reference for information that are not as relevant as the information presented on the three segments.|
+
 
 *July 15, 2025*
 I completed the second draft, specifically the data visualization for the "Sales" segment. After completing the draft, I observed some weaknesses and mistakes:
@@ -100,3 +100,30 @@ I completed the second draft, specifically the data visualization for the "Sales
 * Incosistent y-axis units (e.g, one chart has a definitive unit in the thousands while the other is set in millions)
 * The 'monthly sales' title is incorrect. Based on the x-axis units, the title should be 'daily sales'.
 * There's no title for the consolidated visuals.
+
+*July 17, 2025*
+I had a query towards a specific chart in the **Customer & Product** segment which was a chart that was supposed to give insights on each gender's product preference. The issue with this chart was that I didn't know which independent variable to use (y-axis), should I base preference off of the sales or the units sold? 
+
+Eventually, I decided on using sales as the basis for preference. I based it off of the tecnical definition of demand which was the ability and willingness of customers to buy a product. Because if demand meant the ability of the customers to buy the product, then preference would mean the act of buying the product with the price in mind. Basically, preference is the willingness of the buyer to still buy despite the price for a certain amount of quantity.
+
+*July 19, 2025*
+ I made respectable amount of progress but still struggled with what information was relevant to put in the dashboard segments. I also added a matrix table to give a detailed insight on customer distribution based off of nice information such as gendre and age group, again using the product category as the column side and total sales as value. I thought this would give be useful for giving a more in-depth view of the retail company's customer niche. However, I scrapped this on later dates since I thought it had too much information, information that the stakeholders might not even bother to check.
+
+ I also inserted a LinkedIn and Github logo where I marked down the links to my personal LinkedIn and Github profile. The gender and age distribution were also included in the customer & product dashboard. I also transformed some of the charts by fixing their design, craeting a more aesthetic feel to each dashboard. I also included an average transaction sales card to give information on the average inflow of revenue to the company.
+
+ *July 21, 2025*
+ I scrapped the original division of four segments which was Sales, Customer Behavior, Inventory, and Additional Insights because I have observed too much dead space for the Customer Behavior, Inventory, and Additional Insights which would make the dashboard irrelevant to use. Therefore, I opted to combine customer behavior, and additional insights together forming the segment called "Customer & Product".
+
+ I also had the idea of creating a navigation page to integrate navigation onto the dashboard.
+
+ I then added custom columns such as sales range, and sales order to create a histogram that will be used to give sales distribution information.
+
+*July 23, 2025*
+I added slicers to make the dashboard more interactive. I added gender, product category, and age slicers. I then prompted ChatGPT to make a logo for the retail company to better mirror a realistic company dashboard, I then used the theme of the logo as reference for the design of the visuals and slicers.
+
+I finalized the histogram which gives sales distribution insight. A first glance of the visual could immmediately convey to stakeholders their most frequent sales value. 
+
+I also changed the overall layout of the "Sales" segment.
+
+*July 24, 2025*
+I finished the first iteration of the **Product & Customer** dashboard design.  
