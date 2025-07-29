@@ -2,21 +2,29 @@ This documentation highlights the process of data analysis and how it was conduc
 
 ## Specific Objectives
 
-The aim of this project is to provide actionable suggestions and recommendations that will help improve the company's product operations and financial position through better understanding of sales patterns, customer behavior, and inventory data. 
+The aim of this project is to provide actionable suggestions and recommendations that will help improve the company's product operations and financial position through better understanding of Sales, Customer & Product, and Inventory data. 
+
 With the aim etablished, I seek answers to the following questions:
 
 **Sales**
+* *What is the total number of transctions for the whole year?*
 * *What is the overall sales revenue and total units sold?*
+* *What is the overall sales distribution across all transactions?*
 * *Which product category sold the most?*
 * *Are there any noticeable monthly sales trends or patterns, and when are the peak sales periods?*
 * *How does sales distribution vary across gender and age groups?
 * *What is the average transaction sale?*
 
-**Customer, Product, and Inventory Insights**
+**Customer & Product** and Inventory Insights**
 * *How does product preference differ by gender?*
 * *How does product preference differ by age group?*
-* How many units were sold for each product category, and which product category had the highest amount of total units sold?
 * *What is the average price per unit for each product category?*
+
+**Inventory**
+* *What is the overall volume of units sold?*
+* *How many units were sold for each product category?*
+* *What's the monthly units sold overview and are there any trends or patterns that can be found?*
+* *What's the onthly units sold overview for each product category and are there any obvious trends or patterns?*
 
 ## Data Collection
 The dataset used in this project was downloaded from Kaggle then exported to Google Sheets for data cleaning.
@@ -180,6 +188,36 @@ Use this references for each dashboard design:
 
 Click [this](references/data_visualization/retail_sales.pbix) to access the dashboard file.
 
+## Data Analysis & Interpretation
 
+Using the dashboard, we can now analyze the charts and intepret what information they are trying to convey. These interpretations can then be used to tell the story of the data which would help the data analyst (In this case, me.) and the stakeholders to brainstorm action plans such as the development of marketing strategies, reevaluation of inventory management systems, development of demand forecasts for specific product categories, etc.)
 
- 
+With the aid of the dashboard, I can now provide the answers to each business questions from the *Specific Objectives* section and other relevant insights that can ony be obvious through the visualization:
+
+<p align="center">**Sales**</p>
+
+* There were a total of 1,000 transactions for the whole year. Depending on the number of transactions goal of the retail company, this number can either be good or bad.
+
+* The total sales for the whole year is 456,000 dollars. Let's say the company's goal was to hit 500,000 dollars in sales, 456,000 dollars would then be quite a failure. If this were the case, I would recommend the stakeholders to look into their operations and see the main drivers of high costs and find immediate solutions to reduce it. I would also recommend marketing & sales changes to reach a higher amount of customers. Some changes in the facility layout can also be recommended, some products that might appeal to a large volume of customers might not be easily visible due to their placement in the facility.
+
+On the other hand, if the sales target was 450,000 dollars, this would mean that the company has barely hit its target. Improvements towards marketing, facility layout, and their overall process would still be recommended.
+
+If they surpass their sales target by a large volume, I would recommend that they take note of every operations, marketing, facility strategies they have adopted and make sure that they maintain or improve on those strategies.
+
+* There's an average sales of 456 dollars for each transaction. Just like with the sales, it would depend if the company has set a goal for this metric. The same recommendations as the sales scenario would be made.
+
+* Peak sales was observed during May and high volume of sales were noticeable across the months of February, October, November, and December. This means that for three out of four quarters of the month, there will be an instance of high volume sales and high volume sales can be expected during Q4. Further analysis of what happened during this months is required for a better story (For example, asking questions such as are there any holidays during these months that drove the high volume of sales.) 
+
+This means that the company could focus the resources used to drive sales during Q4 or the months mentioned to improve other aspects of the company, aspect such as product innovation, operations improvement, employee training, etc.
+
+* The lowest volume of sales happened on the month of September, and a low volume of sales can also be seen on the month of March. Q3 seems to be the weakest in terms of sales volume. The company should then expect low sales volume during the third quarter of the year.
+
+It would therefore be a wise decision to allocate signfiicant resources during these months on marketing and sales campaigns to widen the company's reach, reducing or eliminating instances of very low monthly sales volume.
+
+* Female customers brought in higher sales volume compared to male customers. However, there are no massive gaps in terms of Sales by Gender, meaning the retail company appeals to both genders alike. The goal here now is to maintain the small margin gap for each gender in the following years to maintain sales volume. Reorgnaizing the facility's sections for male and female beauty and clothing products could help foster inclusivity and maintain sales volume.
+
+* Each of the three product categories generated comparable sales volume, with Electronics generating the highest and Beauty products the lowest. However, there's a notable 12,000 dollar gap between Beauty sales and Clothing sales. An emphasis on increased marketing efforts --- influencer collaborations, free sampling of beauty products, limited-time discounts, seasonal or holiday campaigns ---  for beauty products could help close this gap and drive sales growth.
+
+* Adults (25-64 years old) account for the majority of the company's sales, with Youth (15 - 24 years old) contributing only a small share. Children (0-15 years old) and Seniors (65+ years old) did not buy any of the retail company's products. This is considered realistic due to children's lack of purchasing power and Seniors minimal interest towards material goods or products.
+
+Nevertheless, targeted marketing efforts and campaigns such as offering affordable clothing lines and exclusive discounts for Seniors can still be implemented to encourage them to buy, which would lead to a small but significant increase in company sales. Furthermore, promotion of seasonal and trendy products can attract Children and encourage their parents (primarily Adult consumers) to buy for them, leading to an indirect increase in Children's contribution to the retail company's sales. However, it is better to allocate more resources into attracting Children and Youth into buying the company's products as they are more likely to become repeat customers, engage in trendy fashion, clothing, and electronics, and have a larger social network.
