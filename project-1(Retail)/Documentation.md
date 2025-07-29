@@ -194,7 +194,7 @@ Using the dashboard, we can now analyze the charts and intepret what information
 
 With the aid of the dashboard, I can now provide the answers to each business questions from the *Specific Objectives* section and other relevant insights that can ony be obvious through the visualization:
 
-<p align="center"><b>Sales</b>S</p>
+<p align="center"><b>Sales</b></p>
 
 * There were a total of 1,000 transactions for the whole year. Depending on the number of transactions goal of the retail company, this number can either be good or bad.
 
