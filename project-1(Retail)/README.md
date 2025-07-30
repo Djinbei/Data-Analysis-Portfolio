@@ -13,4 +13,8 @@ This project looks at retail data procured from [Kaggle](https://www.kaggle.com/
 
 ### **Results** 
 
+## **Summary of Findings**
+
 ### **Conclusion**
+
+ Includes Summary of Findings, Recommendations, and Business Impact.
