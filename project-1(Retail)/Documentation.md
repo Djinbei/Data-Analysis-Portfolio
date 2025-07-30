@@ -12,7 +12,7 @@ With the aim etablished, I seek answers to the following questions:
 * *What is the overall sales distribution across all transactions?*
 * *Which product category sold the most?*
 * *Are there any noticeable monthly sales trends or patterns, and when are the peak sales periods?*
-* *How does sales distribution vary across gender and age groups?
+* *How does sales distribution vary across gender and age groups?*
 * *What is the average transaction sale?*
 
 **Customer & Product** and Inventory Insights**
