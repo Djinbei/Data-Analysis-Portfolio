@@ -238,4 +238,27 @@ Given that Electronics and Clothing balance each other out with Females inclinat
 
 Given what we already know, with Beauty garnering the lowest sales volume across age groups and gender and even overall. The company should try to reduce the average price per unit either through introducing budget-friendly product lines or sizes, promotional pricing or discounts, and as mentioned prior creating product bundles at a lower combined price point, making it more affordable for each customer segment, potentially increasing its demand and overall sales contribution.
 
+<p align="center"><b>Inventory</b></p>
+
+* A total of 2,514 units were sold for the whole year
+
+In a similar context with the sales analysis, whether this metric is favorable or unfavorable depends entirely on the company's logistics. Can they supply 2,514 units for one year, can their logistics and supply chain accommodate this amount of volume? And can they maintain or expand it effectively for the following years?
+
+Scenario 1: If supply can't keep up with this volume amount, the company should allocate more resources and support into expanding or improving their supply chain management and logistics, preferably to the point where they can accommodate 3,000 units of products for the whole year to keep up with the demand and prepare buffer stocks in case of higher demand than expected.
+
+Scenario 2: If supply can keep up with this volume amount, the company could focus less on logistics and supply chain and delve more into improving or streamlining their operations, management, and marketing. 
+ 
+* 2.51 units were sold on average across all transactions for the whole year
+
+The company should maintain 3 - 4 units stocked for each product category every day to keep up with the daily demand and avoid stockouts. The company should also make sure to check in with their inventory management system, check to see if there are excess inventory that can still be brought out into the retail store.
+
+* Units sold from January to April are leveled with each other, with peak units sold observed during the month of May, followed by a massive dip on June continuing until July. A three-month rise and fall can then be observed from August to October, with September garnering the lowest amount of units sold. Units
+sold were then stable for the month of Novemeber up until December.
+
+The company stakeholders can make use of this information to make their inventory management system more effective. For example, they should keep 250 units in stock from the month of January to April to avoid overstocking of their retail facility which could indirectly impact the facility's aesthetic making it more conducive to customer shopping. It is also imperative to prepare a large amount of stocks on the month of May, August, and October as these are the months observed to have the highest volume of units sold. On the other hand, a relatively lower amount of units is acceptable for the months of June, July, and September. But the company should still make necessary efforts to increase the units sold such as mentioned before, lowering the average price per unit by a slight margin, creating product bundles for a relatively low combined price point, and targeted product discounts for specific customer segments for these months to increase overall sales and profitabiltiy.
+
+* Relatively similar trends and patterns can be observed for all product categories in terms of monthly units sold. However, there are notable differences observed in a specific span of months, particularly during the months of March up unto May, where Clothing products experienced its highest units sold volume. Electronic units had its lowest amount of units sold during the month of March, rising slowly across May and ultimately leveling with the other products on the month of June. Units sold monthly for Beauty products can be regarded as stable, with no significant peak or dips. However, it fails to keep up with the normal baseline of Electronics and Clothing, despite their incosistent trends and patterns.
+
+This information is a narrowed down version of the overall monthly units sold trend, therefore this also gives us a much more detailed action plan or strategy such as making usre that clothing stocks are really high for the month of March to May as they sell really well during these months. The company could also utilize the popularity of clothing products during these months to drive units sold growth for Beauty and Clothing through creating a pair or trio bundles (One electronic has a corresponding clothing or beauty product pair or a combination of the three) for these months, or campaigns such as offering a specific beauty or clothing discount for one purchase of an electronic product.
+
 **Results, Conclusion, and Recommendations**
