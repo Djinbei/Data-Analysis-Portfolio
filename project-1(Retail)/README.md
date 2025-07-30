@@ -12,8 +12,11 @@ This project looks at retail data procured from [Kaggle](https://www.kaggle.com/
 *Google Sheets*, *PostgreSQL*, *Microsoft PowerBI*
 
 ### **Results** 
+*Sales*
 
-## **Summary of Findings**
+*Customer & Product*
+
+*Inventory*
 
 ### **Conclusion**
 
