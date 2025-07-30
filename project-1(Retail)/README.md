@@ -5,7 +5,7 @@
 
 This project looks at retail data procured from [Kaggle](https://www.kaggle.com/datasets/mohammadtalib786/retail-sales-dataset/data). I then conduct data analysis to gain relevant insights from the data then give recommendations to the company to help them make the right decisions for the company's operations, marketing and sales, and inventory. The dataset includes Transaction ID, Date, CustomerID, Age, Product Category, Quantity, Price Per Unit, and Total Amount. The standard process data analysis process is followed, particularly data sourcing, data transformation (remove missing entries and duplicates, correcting data format, etc.), exploratory data analysis, and data visualization.
 
-<h3><strong>Skills</strong></h3>
+## Skills
 
 * *Extract Transform Load*
 * *Data Sourcing*
@@ -15,13 +15,13 @@ This project looks at retail data procured from [Kaggle](https://www.kaggle.com/
 * *Technical Documentation*
 * *Data Analysis & Interpretation*
 
-<h3><strong>Technology</strong></h3>
+## Technology
 
 * *Google Sheets* 
 * *PostgreSQL*
 * *Microsoft PowerBI*
 
-<h3><strong>Results</strong></h3>
+## Results
 
 *Sales*
 
@@ -29,6 +29,6 @@ This project looks at retail data procured from [Kaggle](https://www.kaggle.com/
 
 *Inventory*
 
-<h3><strong>Conclusion</strong></h3>
+## Conclusion
 
  Includes Summary of Findings, Recommendations, and Business Impact.
