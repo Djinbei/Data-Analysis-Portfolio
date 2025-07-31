@@ -42,19 +42,19 @@ This project looks at a retail company's dataset sourced from [Kaggle](https://w
 
 *Customer & Product*
 
-* Only purchasing groups: Adults – S381,350; Youth – S74,650
+* Only purchasing groups: Adults – $381,350; Youth – $74,650
 
-* Non-buying groups: Children – S0; Seniors – S0
+* Non-buying groups: Children – $0; Seniors – $0
 
 * Top categories by sales:
 
-  * Electronics – ₱156,905
+  * Electronics – $156,905
 
-  * Clothing – ₱155,580
+  * Clothing – $155,580
 
-* Lowest sales category: Beauty – ₱143,515
+* Lowest sales category: Beauty – $143,515
 
-* Highest avg. unit price: Beauty – ₱184.06
+* Highest avg. unit price: Beauty – $184.06
 
 
 *Inventory*
