@@ -31,13 +31,13 @@ This project looks at a retail company's dataset sourced from [Kaggle](https://w
 
 * Quarterly Sales ($):
 
-* * Q1: $110,030
+  * Q1: $110,030
 
-* * Q2: $123,735
+  * Q2: $123,735
 
-* * Q3: $96,045
+  * Q3: $96,045
 
-* * Q4: $126,190
+  * Q4: $126,190
 
 
 *Customer & Product*
@@ -48,9 +48,9 @@ This project looks at a retail company's dataset sourced from [Kaggle](https://w
 
 * Top categories by sales:
 
-* * Electronics – ₱156,905
+  * Electronics – ₱156,905
 
-* * Clothing – ₱155,580
+  * Clothing – ₱155,580
 
 * Lowest sales category: Beauty – ₱143,515
 
@@ -61,11 +61,11 @@ This project looks at a retail company's dataset sourced from [Kaggle](https://w
 
 * Units sold:
 
-* * Clothing – 894
+  * Clothing – 894
 
-* * Electronics – 849
+  * Electronics – 849
 
-* * Beauty – 771
+  * Beauty – 771
 
 ## Conclusion
 
