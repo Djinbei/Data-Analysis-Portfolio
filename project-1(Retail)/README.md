@@ -25,9 +25,47 @@ This project looks at a retail company's dataset sourced from [Kaggle](https://w
 
 *Sales*
 
+* Peak Sales Quarter: Q4 ($126,190)
+
+* Lowest Sales Quarter: Q3 ($96,045)
+
+* Quarterly Sales ($):
+
+* * Q1: $110,030
+
+* * Q2: $123,735
+
+* * Q3: $96,045
+
+* * Q4: $126,190
+
+
 *Customer & Product*
 
+* Only purchasing groups: Adults – S381,350; Youth – S74,650
+
+* Non-buying groups: Children – S0; Seniors – S0
+
+* Top categories by sales:
+
+* * Electronics – ₱156,905
+
+* * Clothing – ₱155,580
+
+* Lowest sales category: Beauty – ₱143,515
+
+* Highest avg. unit price: Beauty – ₱184.06
+
+
 *Inventory*
+
+* Units sold:
+
+* * Clothing – 894
+
+* * Electronics – 849
+
+* * Beauty – 771
 
 ## Conclusion
 
