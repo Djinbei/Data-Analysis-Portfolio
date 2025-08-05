@@ -73,3 +73,8 @@ This project looks at a retail company's dataset sourced from [Kaggle](https://w
 
 The company's sales are driven solely by Adults and Young Adults. The analysis of monthly trends and patterns show company sales peak during Q4 and dip during Q3. Insights into Gender and Age Group preference show that Electronics and Clothing are the company's top product lines, with Beauty products being the lowest contributor in sales despite having the highest average price per unit, highlighting the need to invest more resources in promoting Beauty products and making them more affordable and visible to make it more appealing to different customer demographics. Therefore, integrating product bundles, promoting free samples of products, leveraging resources used in peak periods to improve dry sales periods, redesigning outlet stores, and keeping a safe amount of units stored and ready every month can attract other cusotmer segments such as Children and Seniors, maintain or improve each product categories sales performance, optimize inventory management, and improve company branding. These improvements will then increase company profit by 3 to 5 percent.
 
+## Recommendations
+
+
+## Business Impact
+
