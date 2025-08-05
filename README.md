@@ -12,7 +12,7 @@ Click this [link](assets/GALISTEADRIANPAUL_RESUME.pdf) to be redirected to my Cu
 
 ## Projects
 
-* [Project 1](project-1(Retail)): Retail Operations Analytics: Gaining Insights on Sales, Customer Behavior, and Inventory Through Data Analysis
+* [Project 1: Retail Operations Analytics: Gaining Insights on Sales, Customer Behavior, and Inventory Through Data Analysis](project-1(Retail))
 
 
 ## Tools Used
