@@ -9,7 +9,7 @@ This project looks at a retail company's dataset sourced from [Kaggle](https://w
 
 ## Skills
 
-* *Extract Transform Load*
+* *Extract, Transform, Load*
 * *Data Sourcing*
 * *Data Transformation*
 * *Exploratory Data Analysis*
