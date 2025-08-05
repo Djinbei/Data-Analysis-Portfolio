@@ -71,10 +71,13 @@ This project looks at a retail company's dataset sourced from [Kaggle](https://w
 
 ## Conclusion
 
-The company's sales are driven solely by Adults and Young Adults. The analysis of monthly trends and patterns show company sales peak during Q4 and dip during Q3. Insights into Gender and Age Group preference show that Electronics and Clothing are the company's top product lines, with Beauty products being the lowest contributor in sales despite having the highest average price per unit, highlighting the need to invest more resources in promoting Beauty products and making them more affordable and visible to make it more appealing to different customer demographics. Therefore, integrating product bundles, promoting free samples of products, leveraging resources used in peak periods to improve dry sales periods, redesigning outlet stores, and keeping a safe amount of units stored and ready every month can attract other cusotmer segments such as Children and Seniors, maintain or improve each product categories sales performance, optimize inventory management, and improve company branding. These improvements will then increase company profit by 3 to 5 percent.
+The company's sales are driven solely by Adults and Young Adults. The analysis of monthly trends and patterns show sales peaked during the fourth quarter of the year and dipped during the third quarter. The analysis of customer demographics strongly indicate Electronics and Clothing products as the company's top product lines. Beauty products fall behind the two products signficantly, being the lowest contributor in sales despite having the highest average price per unit.
 
 ## Recommendations
 
+It is therefore highly recommended for the retail company to invest more resources towards promotion of Beauty products through specific marketing strategies such as product bundles, free samples and placing beauty products into the recommended products section of the company's website, redesigning layout of outlet stores to improve its visibility, accessibility, and appeal to customers such as introducing a specific beauty product section in an easily accesible and visible area of the outlet store/s. Leveraging peak period resources to improve dry sales periods will help achieve stable sales performance for the whole business year. Last but not least, keeping a standard amount of 250 - 300 units every month prevents occurrences of stockouts and ensure safety buffer stocks for unexpected high product demand.
 
 ## Business Impact
+
+Following the recommendations will most likely result to increased customer transactions, maintained or improveed product sales performance, optimized inventory management system, and a more reliable company branding. All of which can increase company profitability by 3 to 5 percent.
 
