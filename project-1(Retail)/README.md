@@ -79,5 +79,5 @@ It is therefore highly recommended for the retail company to invest more resourc
 
 ## Business Impact
 
-Following the recommendations will most likely result to increased customer transactions, maintained or improveed product sales performance, optimized inventory management system, and a more reliable company branding. All of which can increase company profitability by 3 to 5 percent.
+Following the recommendations will most likely result to increased customer transactions, maintained or improved product sales performance, optimized inventory management system, and a more reliable company branding. All of which can increase company profitability by 3 to 5 percent.
 
