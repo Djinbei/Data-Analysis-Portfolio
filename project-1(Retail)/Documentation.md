@@ -2,11 +2,12 @@ This documentation highlights the process of data analysis and how it was conduc
 
 ## Specific Objectives
 
-The aim of this project is to provide actionable suggestions and recommendations that will help improve the company's product operations and financial position through better understanding of Sales, Customer & Product, and Inventory data. 
+The project aims to provide data-driven suggestions/recommendations that improves the company's Marketing Operations, Customer & Product Handling, and Inventory Management.
 
-With the aim etablished, I seek answers to the following questions:
+With this in mind, it is important to answer the following questions:
 
 **Sales**
+
 * *What is the total number of transctions for the whole year?*
 * *What is the overall sales revenue and total units sold?*
 * *What is the overall sales distribution across all transactions?*
@@ -27,30 +28,37 @@ With the aim etablished, I seek answers to the following questions:
 * *What's the onthly units sold overview for each product category and are there any obvious trends or patterns?*
 
 ## Data Collection
-The dataset used in this project was downloaded from Kaggle then exported to Google Sheets for data cleaning.
+
+The dataset was downloaded from Kaggle and exported to Google Sheets.
 
 ## Data Wrangling/Preparation
-To make sure that the data is accurate, and therefore reliable, data cleaning was conducted using Google Sheets by:
-* Setting proper format for all categories (e.g. date format for "Date", currency format for "Pricer Per unit" and "Total Amount")
-* Used a formula to count for missing information (cells that have no values called null cells) Refer to this [image](references/count_of_missing.PNG)
-* Made use of the IF and RIGHT function in Google Sheets to concatenate the numbers in "CustomerID" and compare it with the Transaction ID to eliminate any typographical errors. Click [this](references/before_data-cleaning.PNG) for the before data cleaning reference and [this](references/after_data-cleaning.PNG) for the after data cleaning reference.
+
+Using Google Sheets, data cleaning was conducted to ensure data accuracy and reliability.
+
+* Set proper field formatting (e.g. Date format for "Date" field, currency format for "Price Per unit" and "Total Amount")
+* Removed records with missing values. Refer to this [image](references/count_of_missing.PNG)
+* Sliced and compared the numbers in "CustomerID" and with the Transaction ID to eliminate any typographical errors. Click [this](references/before_data-cleaning.PNG) to see the image of the dataset before data cleaning and [this](references/after_data-cleaning.PNG) one for the image of the dataset after data cleaning.
 
 ## Data Transfer
-The cleaned data from the Google Sheets is transferred to PostgreSQL for Exploratory Data Analysis and a deeper dive into what the data means.
+The transfomed dataset was imported from Google Sheets to PostgreSQL for Exploratory Data Analysis.
+
 * Created a database in PostgreSQL
-* Created a table titled "retail_sales" using CREATE TABLE function of PostgreSQL, making sure that the column titles and their data types are accurate.
-* Using the COPY function of PostgreSQL, the prepared data is transferred to SQL.
+* Created a table named "retail_sales" using CREATE TABLE, making sure that the field names and their corresponding data types are accurate.
+* Using PostgreSQL's COPY function, the data is imported to SQL.
 
-Conducting data transfer had its fair share of challenges, but the challenges were essential for a more effective learning. The challenges encountered were as follows:
-* PostgreSQL does not accept currency signs, specially for a column that has a NUMERIC datatype
-* PostgreSQL does not accept a comma for a column title with a NUMERIC datatype
+_Challenges_
 
-Therefore, I had to correct the format of the data again before copying it into PostgreSQL. Use this [link](references/data_import-reformatted_data(removedcommas)) for reference of the reformatted data.
+Importing data came with challenges which were essential for maximized learning:
+* PostgreSQL does not accept symbols such as currency signs, specially for fields with "NUMERIC" data type.
+* PostgreSQL does not accept any commas for "NUMERIC" fields.
 
-After correcting the format of the data, it was now viable for copying into PostgreSQL database. Here's the reference [image](references/data_import-technicalcode_documentation(1).PNG) of the successful data transfer using SELECT function of PostgreSQL.
+The dataset's format was therefore corrected before importing it into PostgreSQL. [Link](references/data_import-reformatted_data(removedcommas))
+
+[Link](references/data_import-technicalcode_documentation(1).PNG) for the successful dataset import.
 
 ## Exploratory Data Analysis (EDA)
-I conducted EDA using the transferred data to get a view of the big picture, to summarize the descriptive information to serve as aid in the data analysis, to look for trends and patterns in the data that can be scrutinized further. In summary, to be able to understand what the data is trying to tell me a little better. 
+
+EDA was conducted using the imported dataset for a more holistic view of the data, descibing the data characteristics and looking for trends and patterns to scrutinize. 
 
 Utilizing a built-in user interface for PostgreSQL called pgAdmin integrated with a standard query tool, I am able to provide the landscape of the data.
 **Important Note**: (Refer to this [link](references/eda_queries.sql) for the actual queries along with the logic behind each query)
