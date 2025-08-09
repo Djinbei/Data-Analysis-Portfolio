@@ -1,10 +1,12 @@
 # Data-Analysis-Portfolio
 
-Hi. I am Adrian Paul C. Galiste, an Industrial Engineering graduate of Saint Louis University with a strong passion for data analytics, specifically analyzing and deriving insights from data that are relevant to my personal and professional endeavors. 
+## Adrian Paul C. Galiste
 
-I started to develop an interest in Statistics and Statistical tools during my second year of university. This was also the time that I discovered the existence of Data Scientist as a profession through a seminar, which inspired me to learn more about Data Science. After three months, I was able to build a strong knowledge foundation on Data Science concepts and tools which will help me accomplish projects and solve problems using data.
+Industrial Engineer with a strong passion for data analysis, specifically deriving insights from data that are of use to other people and myself. During my second year at university, I started to develop an interest on Statistics and how it can be used as a tool or solution to different types of problems. This was also the time I discovered Data Science as a career path. Three months after, I built a strong Data Science foundation that I could use to build projects and for problems that can be solved using data. 
 
-This portfolio contains my data analysis projects. Each project uses a different combination of tools such as Google Sheets, Microsoft Excel, Python, R, PostgreSQL, MySQL, Azure, Oracle, and many more.
+However, I discovered the "Data Analyst" profession recently, which is a more accessible field for entry level data practitioners. With this, I plan to start off my career as a Data Analyst, first building my technical and practical knowledge through building data analysis projects focused on different fields and accomplishing data analysis certifications.
+
+This portfolio contains projects focused on building my knowledge and skills to become an effective Data Analyst. I plan to use different combinations of tools such as Google Sheets, Microsoft Excel, Python, R, PostgreSQL, MySQL, Azure, Oracle, etc. for each project to widen my technical toolset.
 
 I am committed to finishing multiple data analysis or data science projects to prove that I can be a valuable asset to the company by providing data-driven insights which could be used by the company to make effective decisions and avoid dire financial consequences. 
 
