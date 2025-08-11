@@ -2,7 +2,7 @@
 
 ## Adrian Paul C. Galiste
 
-Industrial Engineer with a strong passion for data analysis, specifically deriving insights from data that serves to improve processes and create solutions to problems. During my second year at university, I started to develop an interest on Statistics and how it can be used as a tool or solution to different types of problems. This was also the time I discovered Data Science as a career path. Three months after, I built a strong Data Science foundation that I could use to build projects and for problems that can be solved using data. 
+Industrial Engineer with a strong passion for data analysis, specifically deriving insights from data that serves to improve processes and create solutions to problems. During my second year at university, I developed an interest in Statistics. This was also the time I discovered Data Science as a career path. Three months after, I built a strong Data Science foundation that I could use to build projects and for problems that can be solved using data. 
 
 However, I discovered the "Data Analyst" profession recently, which is a more accessible field for entry level data practitioners. With this, I plan to start off my career as a Data Analyst, first building my technical and practical knowledge through building data analysis projects focused on different fields and accomplishing data analysis certifications.
 
